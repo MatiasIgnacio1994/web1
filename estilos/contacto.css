@@ -1,0 +1,36 @@
+:root {
+    --inputs-bc: rgb(227, 228, 255);
+}
+
+form-container {
+    width: 100vw;
+}
+
+.formulario {
+    width: 30vw;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgb(4, 37, 92);
+}
+
+.formulario label {
+    color: #fff;
+}
+
+.formulario input {
+    background-color: var(--inputs-bc);
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+.formulario textarea {
+    background-color: var(--inputs-bc);
+    margin-bottom: 30px;
+}

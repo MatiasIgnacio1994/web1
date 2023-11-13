@@ -1,0 +1,25 @@
+body {
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+.container {
+    width: 80vw;
+    margin: auto;
+}
+
+.container h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.container h2 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.container p {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}

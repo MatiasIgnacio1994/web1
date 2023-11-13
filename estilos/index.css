@@ -1,0 +1,160 @@
+:root {
+    --header-vh-total: 20vh;
+    --header-vh-semi: 15vh;
+    --login-button-container-vh: 7vh;
+    --header-button-vw: 10vw;
+    --header-button-vh: 4vh;
+    --logo-dimension: 15vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+.header {
+    width: 100vw;
+    height: var(--header-vh-total);
+    background-color: #fff;
+}
+
+.logo-container {
+    width: 70vw;
+    height: var(--header-vh-semi);
+    display: inline-block;
+    /*background-color: red;*/
+}
+
+.logo {
+    width: 70vw;
+    height: var(--header-vh-semi);
+    display: flex;
+    justify-content: center;
+    /*background-color: chocolate;*/
+}
+
+.logo a img {
+    width: var(--logo-dimension);
+    height: var(--logo-dimension);
+}
+
+.login-container {
+    width: 30vw;
+    height: var(--header-vh-semi);
+    float: right;
+    /*background-color: blue;*/
+}
+
+.login-container .buttons-container {
+    width: 100%;
+    height: var(--login-button-container-vh);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 23px;
+    /*background-color: blueviolet;*/
+}
+
+.login-container .buttons-container button a {
+    width: var(--header-button-vw);
+    height: var(--header-button-vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    transition: .4s;
+}
+
+.login-container .buttons-container button a:hover {
+    width: var(--header-button-vw);
+    height: var(--header-button-vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: red;
+    background-color: #fff;
+    transition: .4s;
+}
+
+.login-container .buttons-container button span {
+    margin-left: 15px;
+}
+
+.people,
+.carrito {
+    width: 20px;
+    height: 20px;
+}
+
+.nav-container {
+    width: 100vw;
+    height: 4vh;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.navigation {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*background-color: beige;*/
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.navigation a:hover {
+    text-decoration: none;
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: .4s;
+}
+
+.img-header {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.img-header img {
+    width: 80vw;
+    height: 70vh;
+}
+
+footer {
+    width: 100vw;
+    height: 10vh;
+    border-top: 1px solid #000;
+}
+
+footer p {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
